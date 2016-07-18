@@ -1,0 +1,79 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+	<script type="text/javascript">
+		
+
+// words to be guessed for each game played
+
+var sigils = ['lion', 'direwolf', 'dragon', 'blackfish', 'swan', 'flayedman', 'rose', 'rooster'];
+
+// variable that outputs word to be guessed 
+var randomWord = sigils[Math.floor(Math.random ()* sigils.length)];
+var shownWord = [];
+
+// splits strin it into an array
+var shownWord = randomWord.split('');
+
+
+// replaces letters in shown word with underscores
+var shownWord = shownWord.replace( /\s/g , '_'); 
+console.log(shownWord);
+
+
+// var i = ['_']
+// for (i=0; i < shownWord.length; i++){
+// 	 indexOf[shownWord].replace([i],'_');
+// 	 vertices[x] = vertices[x].replace('v ', '');
+// }
+
+
+
+
+var dashes = shownWord.length
+
+var correctGuess = [];
+
+var wrongGuess= [];
+
+counter = 10;
+
+
+
+
+// document.onkeyup = function () {
+// 	if (shownWord.indexOf() == shownWord) {
+// 		correctGuess.push();
+// 	}
+// 	else {
+// 		wrongGuess.push();
+// 	}
+
+// 	counter -- ;
+// }
+
+
+
+// function genLettersGuess (){
+// 	var tempString = "";
+// 	for  (i=0, i < correctGuess.Length; i++){
+// 		tempString += Inc
+// 	}
+		
+
+
+
+
+
+	
+
+
+
+	</script>
+</body>
+</html>
