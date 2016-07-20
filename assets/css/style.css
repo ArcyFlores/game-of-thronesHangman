@@ -26,6 +26,10 @@ section {
 
 }
 
+#sigil {
+	margin: 10px 20px;
+}
+
 .guessSection {
 	background-color:white; 
 	color:black;

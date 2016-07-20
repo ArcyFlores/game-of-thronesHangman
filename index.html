@@ -5,7 +5,7 @@
   <link rel="stylesheet" href="assets/css/reset.css" media="screen" title="no title" charset="utf-8">
   <link rel="stylesheet" href="assets/css/style.css" media="screen" title="no title" charset="utf-8">
   <link href="https://fonts.googleapis.com/css?family=Six+Caps" rel="stylesheet">
-  <script type = text/javascript src= "assets/javascript/game.js"></script>
+  <script type=text/javascript src="assets/javascript/game.js"></script>
   <title>Hangman</title>
 </head>
   
@@ -20,25 +20,27 @@
 	<main>
 		
 		<section>
-			<h2>Guess the What this House's Sigil is.</h2>
-			<div><img src=""></div>
+			<h2>Guess the House Name for Each Sigil Displayed</h2>
+			<div><img id ="sigil" width='350'></div>
 		</section>
 
 		<section>
-			<h3>Word</h3>
+			<h3>House Name</h3>
 				<div class="guessSection">
-					<p id="word"></p>
+				<p id="word"></p>
 				</div>
 			<h3>Incorrect Letters</h3>
-			    <div class="guessSection"><p></p></div>
-			<h3 id="guessesLeft">Guesses Left :</h3>
+			    <div class="guessSection">
+			    	<p id="wrong"><span></span></p>
+			    </div>
+			<h3>Guesses Left : <span id="guessesLeft"></span></h3>
 
 		</section>
 
 	</main>
 
 	<footer>
-	 	<audio controls>
+	 	<audio controls autoplay loop>
 	  		<source src="assets/game_of_thrones.mp3" type="audio/mp3">
 		</audio>
 	</footer>
