@@ -1,1 +1,1 @@
-# week-3-game
+# Game of Thrones Themed Hangman Game
